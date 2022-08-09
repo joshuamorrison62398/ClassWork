@@ -1,0 +1,524 @@
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~
+$ cd galaxy-far-far-away
+bash: cd: galaxy-far-far-away: No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~
+$ cd desktop
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop
+$ cd Perscholas
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas
+$ cd Classwork
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork (main)
+$ cd galaxy-far-far-away
+bash: cd: galaxy-far-far-away: No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork (main)
+$ mkdir galaxy-far-far-away
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork (main)
+$ cd galaxy-far-far-away/
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ commmands.txt
+bash: commmands.txt: command not found
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd commands.txt
+bash: cd: commands.txt: No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mkdir commands.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r commands.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ commands.txt
+bash: commands.txt: command not found
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd commands.txt
+bash: cd: commands.txt: No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mkdir commands.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r commands.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ echo commands,txt
+commands,txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r commands.txt
+rm: cannot remove 'commands.txt': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ echo commands.txt
+commands.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r commands.txt
+rm: cannot remove 'commands.txt': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd commands.txt
+bash: cd: commands.txt: No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ >commands.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mkdir death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ > darth_vader.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ princess_leia.txt
+bash: princess_leia.txt: command not found
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ > princess_leia.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ > storm_trooper.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mkdir tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ > luke.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ > ben_kenobi.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mkdir millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ cd millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine/millenium_falcon (main)
+$ >han_solo.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine/millenium_falcon (main)
+$ >chewbacca.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine/millenium_falcon (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mv ben_kenobi.txt obi_wan.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ rm -r tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt ~/ tatooine
+cp: target 'tatooine' is not a directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt
+cp: missing destination file operand after 'storm_trooper.txt'
+Try 'cp --help' for more information.
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cp storm_trooper.txt tatooine
+cp: cannot stat 'storm_trooper.txt': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt
+cp: missing destination file operand after 'storm_trooper.txt'
+Try 'cp --help' for more information.
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt cd ..
+cp: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd..
+bash: cd..: command not found
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cp strom trooper.txt tattoine
+cp: target 'tattoine' is not a directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cp storm_trooper.txt tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ rm -r tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r storm_trooper.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd tatooine
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mv luke.txt millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mv obi_wan.txt millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mv millenium_falcon galaxy-far-far-away
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mv galaxy-far-far-away millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ mv millenium_falcon cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/tatooine (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ git add .
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ git commit -m "terminal command lab"
+[main 658e8f6] terminal command lab
+ 9 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 galaxy-far-far-away/commands.txt
+ create mode 100644 galaxy-far-far-away/death_star/darth_vader.txt
+ create mode 100644 galaxy-far-far-away/death_star/princess_leia.txt
+ create mode 100644 galaxy-far-far-away/death_star/storm_trooper.txt
+ create mode 100644 galaxy-far-far-away/millenium_falcon/chewbacca.txt
+ create mode 100644 galaxy-far-far-away/millenium_falcon/han_solo.txt
+ create mode 100644 galaxy-far-far-away/millenium_falcon/luke.txt
+ create mode 100644 galaxy-far-far-away/millenium_falcon/obi_wan.txt
+ create mode 100644 galaxy-far-far-away/tatooine/storm_trooper.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 675 bytes | 675.00 KiB/s, done.
+Total 7 (delta 0), reused 1 (delta 0), pack-reused 0
+To https://github.com/joshuamorrison62398/ClassWork.git
+   9c8e910..658e8f6  main -> main
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mv millenium
+-mv: missing destination file operand after 'millenium'
+Try 'mv --help' for more information.
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mv millenium_falcon/ death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv princess_leia.txt/ millenium_falcon
+mv: cannot stat 'princess_leia.txt/': Not a directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv princess_leia millenium_falcon
+mv: cannot stat 'princess_leia': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv princess_leia.txt millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star/millenium_falcon (main)
+$ rm -obi_wan.txt
+rm: unknown option -- o
+Try 'rm --help' for more information.
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star/millenium_falcon (main)
+$ rm -r obi_wan.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star/millenium_falcon (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mkdir yavin_4
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv millenium_falcon/ yavin_4
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv yavin_4 millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv millenium_falcon cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mv millenium_falcon yavin_4
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd yavin_4
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4 (main)
+$ mkdir x_wing
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4 (main)
+$ cd millenium_falcon
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ mv princess_leia.txt cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ mv luke.txt x_wing
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ mv x_wing luke.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ mv luke.txt cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4 (main)
+$ mv luke.txt x_wing
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4 (main)
+$ mv millenium_falcon cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4 (main)
+$ mv x_wing cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/yavin_4 (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_1
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_2
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_3
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv darth_vader.txt tie_fighter_1
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt
+cp: missing destination file operand after 'storm_trooper.txt'
+Try 'cp --help' for more information.
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tie_fighter_2
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tie_fighter_3
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv tie_fighter_1 cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv tie_fighter_2 cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ mv tie_fighter_3 cd ..
+mv: cannot stat 'cd': No such file or directory
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r tie_fighter_2
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r tie_fighter_3
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ cd x_wing
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/x_wing (main)
+$ touch the_force.txt
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away/x_wing (main)
+$ cd ..
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ rm -r death_star
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mv x_wing yavin_4
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ mv millenium_falcon yavin_4
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ git add .
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ git commit -m " completed terminal lab"
+[main 03a8bdd]  completed terminal lab
+ 7 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 galaxy-far-far-away/millenium_falcon/obi_wan.txt
+ rename galaxy-far-far-away/{death_star => tie_fighter_1}/darth_vader.txt (100%)
+ rename galaxy-far-far-away/{ => yavin_4}/millenium_falcon/chewbacca.txt (100%)
+ rename galaxy-far-far-away/{ => yavin_4}/millenium_falcon/han_solo.txt (100%)
+ rename galaxy-far-far-away/{death_star => yavin_4}/princess_leia.txt (100%)
+ rename galaxy-far-far-away/{millenium_falcon => yavin_4/x_wing}/luke.txt (100%)
+ rename galaxy-far-far-away/{death_star/storm_trooper.txt => yavin_4/x_wing/the_force.txt} (100%)
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 746 bytes | 746.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/joshuamorrison62398/ClassWork.git
+   658e8f6..03a8bdd  main -> main
+
+joshu@LAPTOP-HO5G6D1T MINGW64 ~/desktop/Perscholas/Classwork/galaxy-far-far-away (main)
+$
