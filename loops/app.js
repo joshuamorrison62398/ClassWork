@@ -152,7 +152,7 @@ let n = 1;
  while (i > 0) {
     i -= 25;
      quarters++;
-}
+
  console.log(quarters + ' quarters');
 
-
+ }
