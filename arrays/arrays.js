@@ -148,3 +148,9 @@ console.log(longest);
     return sum
   }
  console.log(addList(1, 2, 3))
+
+
+ let foodItem = ['steak', 'burrito', 'soul'] {
+  
+ }
+ 
