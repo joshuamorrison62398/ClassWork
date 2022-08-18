@@ -40,5 +40,50 @@
     console.log(`Hello, my name is ${yourName}.`)
 
 
+//3. Booleans
+
+   const a = 4;
+   const b = 53; 
+   const c = 57;
+   const d = 16;
+   const e = 'Kevin'
+
+   console.log(a !== b);
+   console.log(c !== d);
+   console.log('Name' === 'Name');
+
+   console.log(true !== false);
+   console.log(false || false || false || false || false || true);
+   console.log(false === false);
+   console.log(e === 'Kevin');
+   console.log(a + b === c);
+   console.log(a * a === d);
+   console.log(48 !== '48');
+
+
+//4.The Farm
+
+  let animal = 'cow';
+  if (animal === 'cow') {
+    console.log('moooo');
+  } else {
+    console.log('Hey you are not a cow')
+  }
+  console.log()
+
+
+// 5. Driver's ED.
+
+  let age = 17;
+  if(age >= 17) {
+    console.log('Here are the keys!')
+  } else {
+    console.log('Sorry, you are too young')
+  }
+
+ 
+
+//6. 
+
 
 
