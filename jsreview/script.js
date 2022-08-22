@@ -136,4 +136,7 @@ for(let i = 0; i <= 100; i++) {
 
 //D. Change values
     const ourClass = ['salty', 'zoom', 'sardine', 'slack', 'github']
-    const index1 = ourClass.indexOf()
+    const index1 = ourClass.indexOf('github');
+    ourClass.splice(index1, 1,'octocat' )
+    ourClass.push('cloud city')
+    console.log(ourClass)
