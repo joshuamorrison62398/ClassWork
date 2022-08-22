@@ -98,12 +98,42 @@
     console.log(i)
   }
 
-  //get even
+  //Get even
 
     for(let i = 0; i <= 100; i++){
         if(i % 2 === 0)
-        console.log(i)
+        console.log(i + ' is an even number')
     }
 
+// give me five
+
+for(let i = 0; i <= 100; i++) {
+    if(i % 5 === 0)
+    console.log('I found a ' + i + ' High Five!')    
+    if(i % 3 === 0)
+    console.log('I found a ' + i + ' Three is a crowd')
+    if(i % 15 === 0)
+    console.log(' I found a ' + i + ' High Five' + ' Three is a crowd')
+}
 
 
+//Arrays and Control flow
+// A. Talk about it 
+    //1. The things in an array is called elements
+    //2. yes
+    //3. grocery list, list of names, etc.
+
+//B. Easy Does It
+    let quotes = ['If your not first, your last - Ricky bobby', 'There is no i in team, but there is an i in Win - michael jordan', 'ya style is regular -Shady Mccoy']
+    console.log(quotes)
+
+//C. Accessing Elements
+    let randomThings = [1, 10, "Hello", true]
+    //console.log(randomThings[0]) // access the ifrst element by putting its index which is 0
+    let index = randomThings.indexOf("Hello");
+    randomThings.splice(index, 1, 'World')
+    console.log(randomThings)
+
+//D. Change values
+    const ourClass = ['salty', 'zoom', 'sardine', 'slack', 'github']
+    const index1 = ourClass.indexOf()
