@@ -140,3 +140,51 @@ for(let i = 0; i <= 100; i++) {
     ourClass.splice(index1, 1,'octocat' )
     ourClass.push('cloud city')
     console.log(ourClass)
+    console.log(ourClass[2]) // to access 3rd element in array
+
+
+//E. Mix it up
+const myArray = [5, 10, 500, 20]
+myArray.push('Aegon')
+console.log(myArray)
+myArray.push('bing bong')
+console.log(myArray)
+myArray.shift(0)
+console.log(myArray)
+myArray.unshift('bob marley')
+console.log(myArray)
+myArray.pop(5)
+console.log(myArray)
+myArray.reverse()
+console.log(myArray)
+
+// F. Biggie Smalls
+function testNum  (a) {
+    let result;
+    if (a > 100) {
+      result = ' big number';
+    } else {
+      result = 'little number';
+    }
+    return result;
+  }
+  
+  console.log(testNum(623));
+  
+
+//G. monkey in the middle
+function testNum2 (b) {
+    let result2;
+    if (b < 5) {
+        result2 = 'little number'
+    } else {
+        if ( b > 10) {
+            result2 = 'big number'
+        } else {
+            return 'monkey';
+        }
+    }
+}
+
+console.log(testNum2(7));
+
