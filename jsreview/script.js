@@ -188,3 +188,41 @@ function testNum2 (b) {
 
 console.log(testNum2(7));
 
+//H. Whats in your closet?
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+];
+
+const tomsCloset = [
+    [
+    "grey button-up",
+    "dark-grey button-up",
+    "light blue button-up",
+    "blue button-up"
+], [
+    "grey jeans",
+    "jeans",
+    "pjs"
+], [
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+    ]
+];
+
+console.log("kristyn is rocking that " + kristynsCloset[2] + " today!")
+kristynsCloset.splice(6, 7, 'raybans')
+console.log(kristynsCloset)
+kristynsCloset[5] = "stained knit hat";
+console.log(kristynsCloset)
+
+
+
+

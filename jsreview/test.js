@@ -1,51 +1,20 @@
-class hamster {
-    constructor(name) {
-        this.owner = "";
-        this.name = name;
-        this.price = 15;
-    }
-    wheelRun(){
-        console.log('squeak squeak')
-    }
-    eatFood() {
-        console.log('nibble nibble')
-    }
-    getPrice() {
-        return this.price
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 0]
+const panagram = ['the', 'quick', 'brown', 'fox', 'jumps',]
+
+
+function myCallBack(element) {
+    if(element > 0) {
+        return true
+    } else {
+        return false
     }
 }
 
-
-const newHamster = new hamster('eon')
-
-console.log(newHamster)
-
-class person {
-
-}
+nums.forEach((element) => console.log(element * 3))
+panagram.forEach((word) => console.log(word +'!'))
 
 
-const timmy = new person("timmy");
+const numbers = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 0]
+const panagram2 = ['BOOM', 'BAM', 'BOP']
 
-timmy.ageUp()
-timmy.ageUp()
-timmy.ageUp()
-timmy.ageup()
-timmy.ageUp()
-
-
-timmy.eat()
-timmy.eat()
-timmy.eat()
-timmy.eat()
-timmy.eat()
-
-timmy.exercise()
-timmy.exercise()
-timmy.exercise()
-timmy.exercise()
-timmy.exercise()
-
-for(let i = 5; i <=  15; i++) {
-    timmy.ageUp()
-}
+numbers.forEach((element) => console.log(element % 7))
