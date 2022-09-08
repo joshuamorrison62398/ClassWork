@@ -64,3 +64,18 @@
 
 
 
+let foodItem = ['kimchi', 'tacos', 'arepa', 'spam']
+
+// for loops equation
+// for (let i = 0, i < 0, i++)
+
+//while loops equation
+// while (i < food.length)
+
+//for of
+// for (let item of foods)
+
+//forEach (build-in array method)
+foods.forEach(function(foodItem) {
+   console.log(foodItem)
+})

@@ -149,8 +149,79 @@ console.log(longest);
   }
  console.log(addList(1, 2, 3))
 
+// more on arrays
 
- let foodItem = ['steak', 'burrito', 'soul'] {
-  
- }
+let foods = ['kimchi', 'tacos', 'arepa', 'spam']
+
+ // for loops
+ // for (let i = 0; i < food.length; i++)
  
+ // while loops
+ // while (i < food.length)
+ 
+ // for of 
+ // for (let item of foods)
+ 
+ // forEach (build-in array method)
+ // foods.forEach(() => { })
+ 
+ // anonymous function
+ // () => 
+ // function() { }
+ 
+ // callback functions
+ 
+ // filter (built-in array method)
+ let newFoodsArr = foods.filter((item, idx) => {
+     // if you return true
+     // keep the item
+     // if you return false
+     // discard it
+     if (item[0] === 'k' || item[0] === 's') {
+         return true
+     } else {
+         return false
+     }
+ })
+ 
+ // console.log(foods)
+ // console.log(newFoodsArr)
+ 
+ // map (built-in array method)
+ let brandNewArray = foods.map(function(item, idx) {
+     // change the current item 
+     return item + '!'
+ })
+
+ // console.log(brandNewArray)
+ 
+ let nums = [4, 10, 25, 30, 100]
+ 
+ // reduce (built-in array method)
+ let result = nums.reduce((previousValue, currentValue) => {
+     return currentValue + previousValue
+ }, 0)
+ 
+ console.log(result)
+
+
+ // FizzBuzz exercise
+ let max = ".........." .length;
+ for (let i = ".".length; i <= (max * max); i++){
+  if (i % 15 == 0) console.log("FizzBuzz");
+  else if (i % 3 == 0) console.log("Fizz");
+  else if (i % 5 == 0) console.log("Buzz");
+  else console.log(i)
+ }
+
+
+ 
+let countDown = 10;
+
+for (var i = 10; i >= 0; i--) {
+  console.log(i);
+
+ if (i === 0) {
+     console.log("Blast Off!");
+ }
+}

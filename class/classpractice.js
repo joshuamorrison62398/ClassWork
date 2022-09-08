@@ -285,4 +285,3 @@ class savingsAccount extends BankAccount {
 const joshSavings = new savingsAccount('josh')
 console.log(joshSavings.withdraw())
 
-

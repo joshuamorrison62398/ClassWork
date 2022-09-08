@@ -40,10 +40,10 @@ let radio = {
         let randomSong = Math.floor((Math.random() * 100)) % 3;
         console.log(randomSong);
         let randomBoth = radio.stations[randomStation].songs[randomSong];
-        console.log('Now Playing' + randomBoth.title + 'by' + randomBoth.artist + '!');
+        console.log('Now Playing' +  randomBoth.title  + 'by' + randomBoth.artist + '!');
     }
 
 }
 
 radio.changeStation();
-console.log('Now Playing' + song.title + 'by' + song.artist.Math.random())
+console.log(Math.floor(Math.random()*10)%3)

@@ -23,7 +23,7 @@
 
 //2. Strings
    //1. and 2.
-    let firstVariable = "Hello World!"
+   let firstVariable = "Hello World!"
    //3.
     firstVariable = 200
     //4.
@@ -34,7 +34,7 @@
     //6.  200
 
     //7. 
-    let yourName = 'joshua';
+    let yourName = 'joshua morrison';
 
     //8.
     console.log(`Hello, my name is ${yourName}.`)
@@ -222,6 +222,184 @@ kristynsCloset.splice(6, 7, 'raybans')
 console.log(kristynsCloset)
 kristynsCloset[5] = "stained knit hat";
 console.log(kristynsCloset)
+
+ tomsCloset[0][0];
+ tomsCloset[0][3];
+ tomsCloset[1][2];
+ console.log('Tom is looking fierce in a ' + tomsCloset[0][0] + ', ' + tomsCloset[0][1] + ' and ' + tomsCloset[2][1] + '!');
+ tomsCloset[1][2] = 'Footie Pajamas';
+  
+
+//Functions
+
+
+function printGreeting (name){
+  return "Hello there, " + name + "!";
+}
+console.log(printGreeting("joshua morrison"));
+
+
+
+function printCool (name){
+ return name + " is super cool!";
+}
+console.log(printCool('kyrie'));
+
+
+
+function calculateCube(num){
+ return num * num * num 
+}
+console.log(calculateCube(5));
+
+
+
+function isVowel(char){
+ if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char =='u'){
+     return true
+     
+ } 
+ else {
+     return false
+ }
+ 
+}
+console.log(isVowel('c'));
+
+
+
+function getTwoLenghts(str1, str2){
+ let Arr =[str1.length, str2.length]
+ return Arr;
+ 
+}
+console.log(getTwoLenghts("Mighty", "Pneumonoultramicroscopicsilicovolcanoconiosis"));
+
+
+
+function getMultipleLenghts(arrStr){
+ let length = [];
+ for (let i = 0; i < arrStr.length; i++){
+     length.push(arrStr[i].length)
+ }
+    return length
+}
+console.log(getMultipleLenghts(['Hello', 'You', 'Are', 'My', 'Sworn', 'Enemy']));
+
+
+
+function maxOfThree(var1, var2, var3){
+ if (var1 >= var2) {
+      if (var1 >= var3) {
+              return var1;
+     } else {
+             return var3;
+             }
+         } else {
+             if (var2 >= var3) {
+                 return var2;
+             } else {
+                 return var3;
+             }
+         }
+ 
+}
+console.log(maxOfThree(12,10,27));
+
+function printLongestWord (strArr) {
+ let longest = strArr[0];
+ for (let i = 1; i < strArr.length; i++) {
+     if (longest.length == strArr[i].length) {
+         
+     } else if (longest.length < strArr[i].length) {
+         longest = strArr[i];
+     }
+ }
+ return longest;
+}
+console.log(printLongestWord(['BoJack', 'Princess', 'Diane', 'a', 'Max', 'Peanutbutter', 'big']));
+
+
+// Objects
+
+let user = {
+ name: 'josh',
+ age: 25,
+ email: 'joshuamorrison623@gmail.com',
+ purchased:[]
+
+}
+
+user.email= 'jdogm34@gmail.com';
+user.age++;
+user.location = 'jersey shore';
+user.purchased.push('carbohydrates');
+user.purchased.push('Peace of Mind');
+user.purchased.push('Merino jodhpurs');
+console.log(user.purchased[2]);
+
+
+user.friend = {
+ name: 'lebron james',
+ age: 38,
+ location: 'cleveland',
+ purchased:[]
+}
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age = 55;
+user.friend.purchased.push('The One Ring');
+user.friend.purchased.push('A latte');
+console.log(user.friend.purchased[1]);
+
+for(i = 0; i < user.purchased.length; i++){
+ console.log(user.purchased[i]);
+}
+
+for(j = 0; j < user.friend.purchased.length; j++){
+ console.log(user.friend.purchased[j]);
+}
+
+function updateUser(){
+ user.age++;
+user.name = user.name.toUpperCase();
+}
+console.log(user);
+
+function oldAndLoud(person){
+ person.age++;
+ person.name = person.name.toUpperCase();
+}
+oldAndLoud(user);
+console.log(user);
+
+//Cat Combinator 
+cat1 = {
+ name: ' parlay ',
+ breed: ' tuxedo cat ',
+ age: 4
+}
+console.log(cat1.age);
+console.log(cat1.breed);
+
+
+let cat2 = {
+ name: ' minks ',
+ breed: ' tabby ',
+ age: 6
+}
+
+
+function combineCats(mama, papa){
+ let Kitty = {
+     name: mama.name + papa.name,
+     age: 1,
+     breed: mama.breed + '-' + papa.breed
+ }
+ return Kitty;
+}
+console.log(combineCats(cat1, cat2));
+console.log(combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)), combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2))));
 
 
 

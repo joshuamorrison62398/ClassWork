@@ -88,5 +88,63 @@ add(4, 5, 6, 10, 100, 50)
   }
   console.log(multiplyArray(12, 13))
 
-  // exercise 6
+ // exercise 6
+  function numArgs(...numbers) {
+    return numbers.length
+  }
+  
+   console.log(numArgs(623, 'gray', 1124, 301))
 
+  // exercise 7
+  function reverseString(){
+  const str =  'pacer' ;
+  }
+  console.log(['p','a','c','e','r'].reverse ());
+
+
+  //exercise 8
+
+  var arr = [
+  'apple',
+  'apple computer',
+  'apple juice'
+];
+
+var lgth = 0;
+var longest;
+
+for (var i = 0; i < arr.length; i++) {
+  if (arr[i].length > lgth) {
+    var lgth = arr[i].length;
+    longest = arr[i];
+  }
+}
+
+console.log(longest); 
+
+//exercise 9
+  function stringsLongerThan(strs, num){
+    let output = []
+    for (let i = 0; i < strs.length; i ++){
+        if (strs[i]. length > num){
+          output.push(strs[i])
+        }
+    }
+    return output
+}
+
+  console.log(stringsLongerThan(['say',
+  'hello', 'in', 'the', 'morning'],5));
+
+  //challenge
+  function addList (...args){
+    if (!args){
+        return 0;
+    }
+    let sum = 0
+    for(let i = 0; i < args.length; i++){
+        sum += args[i]
+    }
+    return sum
+  }
+ console.log(addList(1, 2, 3))
